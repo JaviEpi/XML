@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE note[
+<!ELEMENT note (to,from,heading,(body|mensaje))>
+<!ELEMENT to (nombre,apellido)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellido (#PCDATA)>
+<!ELEMENT from (#PCDATA)>
+<!ELEMENT heading (#PCDATA)>
+<!ELEMENT body (#PCDATA)>
+<!ELEMENT mensaje (#PCDATA)>
+]>
+
+<note>
+    <to>
+        <nombre>Javier</nombre>
+        <apellido>Epifanio</apellido>
+    </to>
+    <from>Mark</from>
+    <heading>LM</heading>
+    <mensaje>Lorem ipsun</mensaje>
+</note>
+

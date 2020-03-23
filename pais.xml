@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<paises>
+    <pais id = "1">
+        <nombre>Francia</nombre>
+        <poblacion>59.7</poblacion>
+    </pais>
+
+    <pais id = "2">
+        <nombre>Irlanda</nombre>
+        <poblacion>3.8</poblacion>
+    </pais>
+    <pais id = "3">
+        <nombre>Brasil</nombre>
+        <poblacion>170</poblacion>
+    </pais>
+</paises>
