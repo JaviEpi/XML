@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+XPATH
+El documento entero:
+  /
+  
+Selecciona todos los elementos "employee" que son hijos directos del elemento "employees":
+  /root/employees/employee
+Selecciona todos elementos 'company' elements independientemente de su posición en el documento:
+  //*[name()='foo:company']
+  
+Selecciona los atributos 'id' de los elementos 'company' independientemente de su posición en el documento.
+  //company/@id
+Selecciona el valor del primer elemento "employee"
+  /root/employees/employee[1]
+Selecciona el último elemento "employee"
+  /root/employees/employee[last()]
+Selecciona el primer y segundo elemento 'employee', utilizando su posición.
+  //employee[position()<=2]
+Selecciona todos los elementos 'employee' que tienen el atributo 'id'
+  //employee[@id]
+Selecciona el elemento 'employee' cuyo valor de atributo ‘id’ sea 3
+  /root/employees/employee[@id=3]
+Selecciona todos los hijos del nodo 'companies'
+  //companies/
+  
+Selecciona todos los elementos 'employee' y 'company'
+  //company | //employee
+Selecciona el número de elementos 'company'
+  count(//company)
+-->
+
+<root xmlns:foo="http://www.foo.org/" xmlns:bar="http://www.bar.org/">
+  <employees>
+    <employee id="1">Johnny Dapp</employee>
+    <employee id="2">Al Pacino</employee>
+    <employee id="3">Robert De Niro</employee>
+    <employee id="4">Kevin Spacey</employee>
+    <employee id="5">Denzel Washington</employee>
+  </employees>
+  <foo:companies>
+    <foo:company id="6">Tata Consultancy Services</foo:company>
+    <foo:company id="7">Wipro</foo:company>
+    <foo:company id="8">Infosys</foo:company>
+    <foo:company id="9">Microsoft</foo:company>
+    <foo:company id="10">IBM</foo:company>
+    <foo:company id="11">Apple</foo:company>
+    <foo:company id="12">Oracle</foo:company>
+  </foo:companies>
+</root>

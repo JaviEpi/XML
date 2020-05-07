@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE red [
+<!ELEMENT red (centro)*>
+<!ELEMENT centro (nombre, grado, anyo, localizacion)>
+<!ATTLIST centro type CDATA #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT grado (#PCDATA)>
+<!ELEMENT anyo (#PCDATA)>
+<!ELEMENT localizacion (ciudad, comunidad)>
+<!ELEMENT comunidad (#PCDATA)>
+<!ELEMENT ciudad (#PCDATA)>
+]>
+
+<red>
+  <centro type="IES">
+    <nombre>IES Gran Capitán</nombre>
+    <grado>Segundo</grado>
+    <anyo>1976</anyo>
+    <localizacion>
+      <ciudad>Córdoba</ciudad>
+      <comunidad>Andalucía</comunidad>
+    </localizacion>
+  </centro>
+  
+  <centro type="CEIP">
+    <nombre>CEIP Virgen del Castillo</nombre>
+    <grado>Primero</grado>
+    <anyo>1982</anyo>
+    <localizacion>
+      <ciudad>Carcabuey</ciudad>
+      <comunidad>Andalucía</comunidad>
+    </localizacion>
+  </centro>
+</red>

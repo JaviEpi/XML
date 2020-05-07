@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="qualified">
+  <xs:element name="EmpresaRecursosHumanos">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="CV">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="datosPersonales">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="nombre"/>
+                    <xs:element name="primerApellido"/>
+                    <xs:element name="segundoApellido"/>
+                    <xs:element name="telefono"/>
+                    <xs:element name="email"/>
+                    <xs:element name="direccion" maxOccurs="2">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="calle"/>
+                          <xs:element name="localidad"/>
+                          <xs:element name="codigoPostal" type="xs:positiveInteger"/>
+                          <xs:element name="provincia"/>
+                          <xs:element name="pais"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="redesSociales" minOccurs="0" maxOccurs="5">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="nombre"/>
+                          <xs:element name="nick"/>
+                          <xs:element name="enlace"/>
+                          <xs:element name="valoracion"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="datosAcademicos">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="titulosOficiales">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="descripcion"/>
+                          <xs:element name="organismoResponsable"/>
+                          <xs:element name="fechaInicio"/>
+                          <xs:element name="fechaFinal"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="cursos"/>
+                    <xs:element name="nivelDeIdioma" type=""/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="experienciaLaboral">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="empresas"/>
+                    <xs:element name="fechas"/>
+                    <xs:element name="tareasDesempeñadas"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="id" type="xs:string" use="required"/>
+            <xs:attribute name="fechaPresentacion" type="xs:string" use="required"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

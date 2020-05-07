@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<curriculums xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="examen.xsd">
+
+    <cv id="D2" fecha="2020-04-27" categoria="Desarrollador">
+    <datos_personales>
+      <nombre>Javier</nombre>
+      <apellido1>Epifanio</apellido1>
+      <apellido2>López</apellido2>
+      <telefono>957727331</telefono>
+      <correo>a19eploja@iesgrancapitan.org</correo>
+      <direcciones>
+        <direccion>
+          <calle>Adelfa</calle>
+          <localidad>Córdoba</localidad>
+          <codigopostal>14012</codigopostal>
+          <provincia>Córdoba</provincia>
+          <pais>España</pais>
+        </direccion>
+      </direcciones>
+      <rrss>
+        <nombre>Twitter</nombre>
+        <nick>JaviEpi</nick>
+        <enlace>twitter.com</enlace>
+        <valoracion>2</valoracion>
+      </rrss>
+    </datos_personales>
+    <datos_academicos>
+      <titulaciones_oficiales>
+        <descripcion>Bachillerato</descripcion>
+        <organismo>Junta de Andalucía</organismo>
+        <fechaInicio>2017-09-15</fechaInicio>
+        <fechaFinalizacion>2019-05-13</fechaFinalizacion>
+      </titulaciones_oficiales>
+      <cursos>
+        <descripcion>Curso prevención riesgos laborales</descripcion>
+        <empresa>No Mas Golpes</empresa>
+        <fechaInicio>2019-04-27</fechaInicio>
+        <fechaFinalizacion>2019-04-29</fechaFinalizacion>
+      </cursos>
+      <nivelIdioma>
+        <comprender>B2</comprender>
+        <hablar>B2</hablar>
+        <escribir>B2</escribir>
+      </nivelIdioma>
+    </datos_academicos>
+    <experiencia_laboral>
+      <empresa>
+        <nombre>Empresa Javier Epifanio</nombre>
+        <fechaInicio>2020-02-12</fechaInicio>
+        <fechaFinalizacion>2020-04-15</fechaFinalizacion>
+        <tarea>Desarrollo de Aplicaciones Webs</tarea>
+      </empresa>
+    </experiencia_laboral>
+    </cv>
+  <cv id="D1" fecha="2020-04-27" categoria="Desarrollador">
+    <datos_personales>
+      <nombre>Javier</nombre>
+      <apellido1>Epifanio</apellido1>
+      <apellido2>López</apellido2>
+      <telefono>957727331</telefono>
+      <correo>a19eploja@iesgrancapitan.org</correo>
+      <direcciones>
+        <direccion>
+          <calle>Adelfa</calle>
+          <localidad>Córdoba</localidad>
+          <codigopostal>14012</codigopostal>
+          <provincia>Córdoba</provincia>
+          <pais>España</pais>
+        </direccion>
+      </direcciones>
+      <rrss>
+        <nombre>Twitter</nombre>
+        <nick>JaviEpi</nick>
+        <enlace>twitter.com</enlace>
+        <valoracion>2</valoracion>
+      </rrss>
+    </datos_personales>
+    <datos_academicos>
+      <titulaciones_oficiales>
+        <descripcion>Bachillerato</descripcion>
+        <organismo>Junta de Andalucía</organismo>
+        <fechaInicio>2017-09-15</fechaInicio>
+        <fechaFinalizacion>2019-05-13</fechaFinalizacion>
+      </titulaciones_oficiales>
+      <cursos>
+        <descripcion>Curso prevención riesgos laborales</descripcion>
+        <empresa>No Mas Golpes</empresa>
+        <fechaInicio>2019-04-27</fechaInicio>
+        <fechaFinalizacion>2019-04-29</fechaFinalizacion>
+      </cursos>
+      <nivelIdioma>
+        <comprender>B2</comprender>
+        <hablar>B2</hablar>
+        <escribir>B2</escribir>
+      </nivelIdioma>
+    </datos_academicos>
+    <experiencia_laboral>
+      <empresa>
+        <nombre>Empresa Javier Epifanio</nombre>
+        <fechaInicio>2020-02-12</fechaInicio>
+        <fechaFinalizacion>2020-04-15</fechaFinalizacion>
+        <tarea>Desarrollo de Aplicaciones Webs</tarea>
+      </empresa>
+    </experiencia_laboral>
+    </cv>
+    
+
+</curriculums>
